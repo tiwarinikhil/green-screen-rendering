@@ -4,11 +4,9 @@ This project takes an input video, removes its **green screen frame-by-frame**, 
 
 The entire pipeline is **GPU-accelerated (CUDA if available)** and optimized with **multiprocessing + progress bars** for large videos.
 
----
+![before](assets/birds.gif)
 
-https://github.com/tiwarinikhil/green-screen-rendering/assets/birds
-
-https://github.com/tiwarinikhil/green-screen-rendering/assets/output
+![after](assets/output.gif)
 
 ## 🚀 Features
 
@@ -105,3 +103,4 @@ To export in .mov ProRes format instead of MP4:
 ```shell
 output_video = "output.mov"
 ```
+
